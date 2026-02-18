@@ -4,9 +4,23 @@ import os
 import pickle
 import argparse
 import json
-import matplotlib.pyplot as plt
 import sys
 from copy import deepcopy
+
+KAGGLE_INPUT_ROOT = '/kaggle/input'
+KAGGLE_WORKING_ROOT = '/kaggle/working'
+KAGGLE_TMP_ROOT = '/kaggle/working/tmp'
+
+# Kaggle read-only /kaggle/input compatibility:
+# configure temp/cache and disable HDF5 file locking before importing matplotlib/h5py users.
+if os.path.isdir(KAGGLE_WORKING_ROOT):
+    os.makedirs(KAGGLE_TMP_ROOT, exist_ok=True)
+    os.environ.setdefault('TMPDIR', KAGGLE_TMP_ROOT)
+    os.environ.setdefault('MPLCONFIGDIR', os.path.join(KAGGLE_TMP_ROOT, 'mpl'))
+    os.makedirs(os.environ['MPLCONFIGDIR'], exist_ok=True)
+    os.environ.setdefault('HDF5_USE_FILE_LOCKING', 'FALSE')
+
+import matplotlib.pyplot as plt
 def tqdm(iterable, *args, **kwargs): return iterable
 from einops import rearrange
 
@@ -324,6 +338,48 @@ def build_train_action_aug_config(args):
     return {k: v for k, v in cfg.items() if v is not None}
 
 
+def _resolve_path(path):
+    return os.path.abspath(os.path.expanduser(path))
+
+
+def _is_subpath(path, root):
+    path_abs = _resolve_path(path)
+    root_abs = _resolve_path(root)
+    try:
+        return os.path.commonpath([path_abs, root_abs]) == root_abs
+    except ValueError:
+        return False
+
+
+def validate_runtime_paths(ckpt_dir, dataset_dir=None, resume_ckpt=None, require_dataset_dir=False):
+    ckpt_dir_abs = _resolve_path(ckpt_dir)
+    if _is_subpath(ckpt_dir_abs, KAGGLE_INPUT_ROOT):
+        raise ValueError(f'ckpt_dir cannot be inside read-only {KAGGLE_INPUT_ROOT}: {ckpt_dir_abs}')
+    if os.path.isdir(KAGGLE_WORKING_ROOT) and not _is_subpath(ckpt_dir_abs, KAGGLE_WORKING_ROOT):
+        raise ValueError(
+            f'On Kaggle, ckpt_dir must be under {KAGGLE_WORKING_ROOT} (or relative path resolving there): {ckpt_dir_abs}'
+        )
+
+    dataset_dir_abs = dataset_dir
+    if dataset_dir is not None:
+        dataset_dir_abs = _resolve_path(dataset_dir)
+        if require_dataset_dir:
+            if not os.path.isdir(dataset_dir_abs):
+                raise FileNotFoundError(f'dataset_dir does not exist: {dataset_dir_abs}')
+            if not os.access(dataset_dir_abs, os.R_OK):
+                raise PermissionError(f'dataset_dir is not readable: {dataset_dir_abs}')
+
+    resume_ckpt_abs = resume_ckpt
+    if resume_ckpt and os.path.isabs(resume_ckpt):
+        resume_ckpt_abs = _resolve_path(resume_ckpt)
+        if not os.path.isfile(resume_ckpt_abs):
+            raise FileNotFoundError(f'resume checkpoint not found: {resume_ckpt_abs}')
+        if not os.access(resume_ckpt_abs, os.R_OK):
+            raise PermissionError(f'resume checkpoint is not readable: {resume_ckpt_abs}')
+
+    return ckpt_dir_abs, dataset_dir_abs, resume_ckpt_abs
+
+
 def main(args):
     set_seed(1)
     # command line parameters
@@ -388,6 +444,12 @@ def main(args):
     train_action_aug = bool(args.get('train_action_aug', False))
     train_action_aug_config = build_train_action_aug_config(args) if train_action_aug else None
     resume_ckpt = args.get('resume_ckpt')
+    ckpt_dir, dataset_dir, resume_ckpt = validate_runtime_paths(
+        ckpt_dir=ckpt_dir,
+        dataset_dir=dataset_dir,
+        resume_ckpt=resume_ckpt,
+        require_dataset_dir=not is_eval,
+    )
 
     # fixed parameters
     state_dim = 14
@@ -906,7 +968,13 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--eval', action='store_true')
     parser.add_argument('--onscreen_render', action='store_true')
-    parser.add_argument('--ckpt_dir', action='store', type=str, help='ckpt_dir', required=True)
+    parser.add_argument(
+        '--ckpt_dir',
+        action='store',
+        type=str,
+        help='checkpoint/output directory (Kaggle: use /kaggle/working/... or ./...)',
+        required=True,
+    )
     parser.add_argument('--policy_class', action='store', type=str, help='policy_class, capitalize', required=True)
     parser.add_argument('--task_name', action='store', type=str, help='task_name', required=True)
     parser.add_argument('--batch_size', action='store', type=int, help='batch_size', required=True)
@@ -916,8 +984,22 @@ if __name__ == '__main__':
     parser.add_argument('--num_epochs', action='store', type=int, help='num_epochs', required=False, default=None)
     parser.add_argument('--lr', action='store', type=float, help='lr', required=False, default=None)
     parser.add_argument('--lr_backbone', action='store', type=float, help='backbone lr', required=False, default=None)
-    parser.add_argument('--resume_ckpt', action='store', type=str, help='resume/fine-tune checkpoint path', required=False, default=None)
-    parser.add_argument('--dataset_dir', action='store', type=str, help='override dataset directory', required=False, default=None)
+    parser.add_argument(
+        '--resume_ckpt',
+        action='store',
+        type=str,
+        help='resume/fine-tune checkpoint path (absolute path supported, e.g. /kaggle/input/.../policy_best.ckpt)',
+        required=False,
+        default=None,
+    )
+    parser.add_argument(
+        '--dataset_dir',
+        action='store',
+        type=str,
+        help='override dataset directory (Kaggle read-only input path is supported)',
+        required=False,
+        default=None,
+    )
     parser.add_argument('--num_episodes', action='store', type=int, help='override number of episodes', required=False, default=None)
     parser.add_argument('--train_visual_aug', action='store_true', help='enable train-time visual augmentation')
     parser.add_argument('--train_aug_profile', action='store', type=str, default='none',
