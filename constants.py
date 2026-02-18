@@ -1,31 +1,44 @@
+import os
 import pathlib
 
 ### Task parameters
-DATA_DIR = '<put your data dir here>'
+_DEFAULT_DATA_DIR = pathlib.Path(__file__).parent.resolve() / 'data'
+DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
+
+
+def _resolve_sim_dataset_dir(task_name):
+    base_dir = pathlib.Path(DATA_DIR).expanduser()
+    task_dir = base_dir / task_name
+    if task_dir.is_dir():
+        return str(task_dir)
+    # Backward compatible fallback for flat layouts like ./data/episode_*.hdf5
+    return str(base_dir)
+
+
 SIM_TASK_CONFIGS = {
     'sim_transfer_cube_scripted':{
-        'dataset_dir': DATA_DIR + '/sim_transfer_cube_scripted',
+        'dataset_dir': _resolve_sim_dataset_dir('sim_transfer_cube_scripted'),
         'num_episodes': 50,
         'episode_len': 400,
         'camera_names': ['top']
     },
 
     'sim_transfer_cube_human':{
-        'dataset_dir': DATA_DIR + '/sim_transfer_cube_human',
+        'dataset_dir': _resolve_sim_dataset_dir('sim_transfer_cube_human'),
         'num_episodes': 50,
         'episode_len': 400,
         'camera_names': ['top']
     },
 
     'sim_insertion_scripted': {
-        'dataset_dir': DATA_DIR + '/sim_insertion_scripted',
+        'dataset_dir': _resolve_sim_dataset_dir('sim_insertion_scripted'),
         'num_episodes': 50,
         'episode_len': 400,
         'camera_names': ['top']
     },
 
     'sim_insertion_human': {
-        'dataset_dir': DATA_DIR + '/sim_insertion_human',
+        'dataset_dir': _resolve_sim_dataset_dir('sim_insertion_human'),
         'num_episodes': 50,
         'episode_len': 500,
         'camera_names': ['top']

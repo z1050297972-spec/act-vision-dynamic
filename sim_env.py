@@ -17,7 +17,67 @@ e = IPython.embed
 
 BOX_POSE = [None] # to be changed from outside
 
-def make_sim_env(task_name):
+INSERTION_DYNAMICS_GEOMS = ['red_peg', 'socket-1', 'socket-2', 'socket-3', 'socket-4', 'pin', 'table']
+TRANSFER_DYNAMICS_GEOMS = ['red_box', 'table']
+
+
+def _safe_name2id(model, name, obj_type):
+    try:
+        return model.name2id(name, obj_type)
+    except Exception:
+        return None
+
+
+def apply_dynamics_randomization(env, task_name, dynamics_cfg):
+    if dynamics_cfg is None:
+        return None
+
+    if 'sim_insertion' in task_name:
+        target_geoms = INSERTION_DYNAMICS_GEOMS
+    elif 'sim_transfer_cube' in task_name:
+        target_geoms = TRANSFER_DYNAMICS_GEOMS
+    else:
+        return None
+
+    model = env.physics.model
+    applied = {
+        'body_masses': {},
+        'friction_slide': {},
+        'dof_damping_scale': None,
+        'actuator_gain_scale': None,
+    }
+
+    body_mass_scales = dynamics_cfg.get('body_mass_scales', {})
+    for body_name, scale in body_mass_scales.items():
+        body_id = _safe_name2id(model, body_name, 'body')
+        if body_id is None:
+            continue
+        scale = float(scale)
+        new_mass = max(1e-4, float(model.body_mass[body_id]) * scale)
+        model.body_mass[body_id] = new_mass
+        applied['body_masses'][body_name] = new_mass
+
+    friction_scale = float(dynamics_cfg.get('friction_scale', 1.0))
+    for geom_name in target_geoms:
+        geom_id = _safe_name2id(model, geom_name, 'geom')
+        if geom_id is None:
+            continue
+        new_slide = max(1e-4, float(model.geom_friction[geom_id, 0]) * friction_scale)
+        model.geom_friction[geom_id, 0] = new_slide
+        applied['friction_slide'][geom_name] = new_slide
+
+    dof_damping_scale = float(dynamics_cfg.get('dof_damping_scale', 1.0))
+    model.dof_damping[:] = np.maximum(model.dof_damping[:] * dof_damping_scale, 1e-5)
+    applied['dof_damping_scale'] = dof_damping_scale
+
+    actuator_gain_scale = float(dynamics_cfg.get('actuator_gain_scale', 1.0))
+    model.actuator_gainprm[:, 0] *= actuator_gain_scale
+    model.actuator_biasprm[:, 1] *= actuator_gain_scale
+    applied['actuator_gain_scale'] = actuator_gain_scale
+    return applied
+
+
+def make_sim_env(task_name, dynamics_cfg=None):
     """
     Environment for simulated robot bi-manual manipulation, with joint position control
     Action space:      [left_arm_qpos (6),             # absolute joint position
@@ -49,6 +109,7 @@ def make_sim_env(task_name):
                                   n_sub_steps=None, flat_observation=False)
     else:
         raise NotImplementedError
+    apply_dynamics_randomization(env, task_name, dynamics_cfg)
     return env
 
 class BimanualViperXTask(base.Task):
@@ -275,4 +336,3 @@ def test_sim_teleop():
 
 if __name__ == '__main__':
     test_sim_teleop()
-
