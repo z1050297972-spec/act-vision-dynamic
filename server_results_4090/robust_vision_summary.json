@@ -1,0 +1,43 @@
+{
+  "mode": "vision_only",
+  "suite": "transfer_vision_v1",
+  "overall": {
+    "count": 50,
+    "success_rate": 0.42,
+    "avg_return": 282.84,
+    "avg_highest_reward": 2.12
+  },
+  "by_visual_type": {
+    "brightness_contrast": {
+      "count": 10,
+      "success_rate": 0.8,
+      "avg_return": 546.6,
+      "avg_highest_reward": 3.4
+    },
+    "gaussian_noise": {
+      "count": 10,
+      "success_rate": 0.0,
+      "avg_return": 9.2,
+      "avg_highest_reward": 0.4
+    },
+    "jpeg_compression": {
+      "count": 13,
+      "success_rate": 0.38461538461538464,
+      "avg_return": 278.61538461538464,
+      "avg_highest_reward": 2.3076923076923075
+    },
+    "motion_blur": {
+      "count": 9,
+      "success_rate": 0.6666666666666666,
+      "avg_return": 446.0,
+      "avg_highest_reward": 3.111111111111111
+    },
+    "occlusion": {
+      "count": 8,
+      "success_rate": 0.25,
+      "avg_return": 118.5,
+      "avg_highest_reward": 1.25
+    }
+  },
+  "by_dynamics_severity": {}
+}

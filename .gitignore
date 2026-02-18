@@ -139,7 +139,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 # local artifacts
-server_results_4090/
-  
-training_results/
 ._*

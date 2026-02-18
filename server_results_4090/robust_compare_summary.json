@@ -1,0 +1,74 @@
+{
+  "task_name": "sim_transfer_cube_scripted",
+  "ckpt_dir": "/Volumes/Elements/act/server_results_4090",
+  "dynamics_summary_file": "/Volumes/Elements/act/server_results_4090/robust_dynamics_summary.json",
+  "vision_summary_file": "/Volumes/Elements/act/server_results_4090/robust_vision_summary.json",
+  "dynamics": {
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "overall": {
+      "count": 50,
+      "success_rate": 0.82,
+      "avg_return": 550.36,
+      "avg_highest_reward": 3.46
+    },
+    "by_visual_type": {},
+    "by_dynamics_severity": {
+      "moderate": {
+        "count": 4,
+        "success_rate": 0.75,
+        "avg_return": 498.25,
+        "avg_highest_reward": 3.25
+      },
+      "severe": {
+        "count": 46,
+        "success_rate": 0.8260869565217391,
+        "avg_return": 554.8913043478261,
+        "avg_highest_reward": 3.4782608695652173
+      }
+    }
+  },
+  "vision": {
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "overall": {
+      "count": 50,
+      "success_rate": 0.42,
+      "avg_return": 282.84,
+      "avg_highest_reward": 2.12
+    },
+    "by_visual_type": {
+      "brightness_contrast": {
+        "count": 10,
+        "success_rate": 0.8,
+        "avg_return": 546.6,
+        "avg_highest_reward": 3.4
+      },
+      "gaussian_noise": {
+        "count": 10,
+        "success_rate": 0.0,
+        "avg_return": 9.2,
+        "avg_highest_reward": 0.4
+      },
+      "jpeg_compression": {
+        "count": 13,
+        "success_rate": 0.38461538461538464,
+        "avg_return": 278.61538461538464,
+        "avg_highest_reward": 2.3076923076923075
+      },
+      "motion_blur": {
+        "count": 9,
+        "success_rate": 0.6666666666666666,
+        "avg_return": 446.0,
+        "avg_highest_reward": 3.111111111111111
+      },
+      "occlusion": {
+        "count": 8,
+        "success_rate": 0.25,
+        "avg_return": 118.5,
+        "avg_highest_reward": 1.25
+      }
+    },
+    "by_dynamics_severity": {}
+  }
+}

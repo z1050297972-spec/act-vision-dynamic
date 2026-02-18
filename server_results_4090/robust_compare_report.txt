@@ -1,0 +1,26 @@
+Robustness Comparison Report
+Timestamp: 2026-02-16T13:16:31.535333+00:00
+Task: sim_transfer_cube_scripted
+Checkpoint dir: /Volumes/Elements/act/server_results_4090
+
+Overall
+- dynamics success_rate: 0.8200
+- vision success_rate:   0.4200
+- dynamics avg_return:   550.3600
+- vision avg_return:     282.8400
+- success_rate_gap(dyn-vis): 0.4000
+- avg_return_gap(dyn-vis):   267.5200
+- harder_by_success: vision
+- harder_by_return:  vision
+
+Dynamics Severity Breakdown
+- moderate: count=4 success_rate=0.7500 avg_return=498.2500
+- severe: count=46 success_rate=0.8261 avg_return=554.8913
+
+Vision Type Breakdown
+- brightness_contrast: count=10 success_rate=0.8000 avg_return=546.6000
+- gaussian_noise: count=10 success_rate=0.0000 avg_return=9.2000
+- jpeg_compression: count=13 success_rate=0.3846 avg_return=278.6154
+- motion_blur: count=9 success_rate=0.6667 avg_return=446.0000
+- occlusion: count=8 success_rate=0.2500 avg_return=118.5000
+

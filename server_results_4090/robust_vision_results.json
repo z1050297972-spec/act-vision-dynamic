@@ -1,0 +1,770 @@
+[
+  {
+    "rollout_id": 0,
+    "scenario_id": "vision_only_0000",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 5
+    },
+    "dynamics_cfg": null,
+    "episode_return": 641.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 1,
+    "scenario_id": "vision_only_0001",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7
+    },
+    "dynamics_cfg": null,
+    "episode_return": 2.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 2,
+    "scenario_id": "vision_only_0002",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.19315827160053117,
+      "fill_value": 0
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 3,
+    "scenario_id": "vision_only_0003",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3
+    },
+    "dynamics_cfg": null,
+    "episode_return": 624.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 4,
+    "scenario_id": "vision_only_0004",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.1693210339854785,
+      "fill_value": 0
+    },
+    "dynamics_cfg": null,
+    "episode_return": 88.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 5,
+    "scenario_id": "vision_only_0005",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7
+    },
+    "dynamics_cfg": null,
+    "episode_return": 26.0,
+    "episode_highest_reward": 2.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 6,
+    "scenario_id": "vision_only_0006",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.18924266371708287,
+      "fill_value": 0
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 7,
+    "scenario_id": "vision_only_0007",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 11.918559153778894
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 8,
+    "scenario_id": "vision_only_0008",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 80
+    },
+    "dynamics_cfg": null,
+    "episode_return": 650.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 9,
+    "scenario_id": "vision_only_0009",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.9885403968082371,
+      "beta": 9.58401463217647
+    },
+    "dynamics_cfg": null,
+    "episode_return": 666.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 10,
+    "scenario_id": "vision_only_0010",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3
+    },
+    "dynamics_cfg": null,
+    "episode_return": 49.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 11,
+    "scenario_id": "vision_only_0011",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.06365425843299677,
+      "fill_value": 0
+    },
+    "dynamics_cfg": null,
+    "episode_return": 750.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 12,
+    "scenario_id": "vision_only_0012",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3
+    },
+    "dynamics_cfg": null,
+    "episode_return": 650.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 13,
+    "scenario_id": "vision_only_0013",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 17.55032219080917
+    },
+    "dynamics_cfg": null,
+    "episode_return": 4.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 14,
+    "scenario_id": "vision_only_0014",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7
+    },
+    "dynamics_cfg": null,
+    "episode_return": 682.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 15,
+    "scenario_id": "vision_only_0015",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 14.753096330748676
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 16,
+    "scenario_id": "vision_only_0016",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.2654161858496096,
+      "beta": 19.90697526216549
+    },
+    "dynamics_cfg": null,
+    "episode_return": 711.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 17,
+    "scenario_id": "vision_only_0017",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.2655315328255394,
+      "beta": -16.839510220381808
+    },
+    "dynamics_cfg": null,
+    "episode_return": 645.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 18,
+    "scenario_id": "vision_only_0018",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 24.612692121397668
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 19,
+    "scenario_id": "vision_only_0019",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.9041153997258096,
+      "beta": 16.028639005251314
+    },
+    "dynamics_cfg": null,
+    "episode_return": 694.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 20,
+    "scenario_id": "vision_only_0020",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 22.096503133436947
+    },
+    "dynamics_cfg": null,
+    "episode_return": 32.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 21,
+    "scenario_id": "vision_only_0021",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.11933852625910364,
+      "fill_value": 0
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 22,
+    "scenario_id": "vision_only_0022",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 39
+    },
+    "dynamics_cfg": null,
+    "episode_return": 49.0,
+    "episode_highest_reward": 2.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 23,
+    "scenario_id": "vision_only_0023",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 9.775730184166157
+    },
+    "dynamics_cfg": null,
+    "episode_return": 56.0,
+    "episode_highest_reward": 2.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 24,
+    "scenario_id": "vision_only_0024",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 45
+    },
+    "dynamics_cfg": null,
+    "episode_return": 47.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 25,
+    "scenario_id": "vision_only_0025",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 13.06366621057652
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 26,
+    "scenario_id": "vision_only_0026",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 40
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 27,
+    "scenario_id": "vision_only_0027",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 74
+    },
+    "dynamics_cfg": null,
+    "episode_return": 43.0,
+    "episode_highest_reward": 2.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 28,
+    "scenario_id": "vision_only_0028",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 75
+    },
+    "dynamics_cfg": null,
+    "episode_return": 51.0,
+    "episode_highest_reward": 2.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 29,
+    "scenario_id": "vision_only_0029",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.2872699675904715,
+      "beta": -28.75478171988484
+    },
+    "dynamics_cfg": null,
+    "episode_return": 646.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 30,
+    "scenario_id": "vision_only_0030",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 78
+    },
+    "dynamics_cfg": null,
+    "episode_return": 638.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 31,
+    "scenario_id": "vision_only_0031",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 53
+    },
+    "dynamics_cfg": null,
+    "episode_return": 662.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 32,
+    "scenario_id": "vision_only_0032",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 14.27757699904032
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 33,
+    "scenario_id": "vision_only_0033",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7
+    },
+    "dynamics_cfg": null,
+    "episode_return": 699.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 34,
+    "scenario_id": "vision_only_0034",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.1933806813533277,
+      "fill_value": 0
+    },
+    "dynamics_cfg": null,
+    "episode_return": 55.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 35,
+    "scenario_id": "vision_only_0035",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.15150246307159584,
+      "fill_value": 0
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 36,
+    "scenario_id": "vision_only_0036",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.0956765950228826,
+      "beta": -12.975872228428187
+    },
+    "dynamics_cfg": null,
+    "episode_return": 50.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 37,
+    "scenario_id": "vision_only_0037",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 67
+    },
+    "dynamics_cfg": null,
+    "episode_return": 50.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 38,
+    "scenario_id": "vision_only_0038",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 30
+    },
+    "dynamics_cfg": null,
+    "episode_return": 656.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 39,
+    "scenario_id": "vision_only_0039",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.9847557211722777,
+      "beta": 7.734955809553192
+    },
+    "dynamics_cfg": null,
+    "episode_return": 638.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 40,
+    "scenario_id": "vision_only_0040",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 29.49153818709247
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 41,
+    "scenario_id": "vision_only_0041",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 40
+    },
+    "dynamics_cfg": null,
+    "episode_return": 56.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 42,
+    "scenario_id": "vision_only_0042",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3
+    },
+    "dynamics_cfg": null,
+    "episode_return": 641.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 43,
+    "scenario_id": "vision_only_0043",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 18.2509736733424
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 44,
+    "scenario_id": "vision_only_0044",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 60
+    },
+    "dynamics_cfg": null,
+    "episode_return": 50.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 45,
+    "scenario_id": "vision_only_0045",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.8515749862806408,
+      "beta": 9.606250625201696
+    },
+    "dynamics_cfg": null,
+    "episode_return": 48.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 46,
+    "scenario_id": "vision_only_0046",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.2910753609378276,
+      "beta": 11.758603578561981
+    },
+    "dynamics_cfg": null,
+    "episode_return": 658.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 47,
+    "scenario_id": "vision_only_0047",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.17520333277775252,
+      "fill_value": 0
+    },
+    "dynamics_cfg": null,
+    "episode_return": 55.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 48,
+    "scenario_id": "vision_only_0048",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 26
+    },
+    "dynamics_cfg": null,
+    "episode_return": 670.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 49,
+    "scenario_id": "vision_only_0049",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.8404345131317876,
+      "beta": 28.508720058691388
+    },
+    "dynamics_cfg": null,
+    "episode_return": 710.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  }
+]

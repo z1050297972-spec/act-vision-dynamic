@@ -1,0 +1,1052 @@
+[
+  {
+    "rollout_id": 0,
+    "scenario_id": "dynamics_only_0000",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.0990126355156395
+      },
+      "friction_scale": 1.1269246175992946,
+      "dof_damping_scale": 0.9145449635440572,
+      "actuator_gain_scale": 1.0522374425526024,
+      "severity": "severe"
+    },
+    "episode_return": 631.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 1,
+    "scenario_id": "dynamics_only_0001",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.132600433323065
+      },
+      "friction_scale": 0.8510427783477179,
+      "dof_damping_scale": 0.8582248194868529,
+      "actuator_gain_scale": 1.0319708715267528,
+      "severity": "severe"
+    },
+    "episode_return": 626.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 2,
+    "scenario_id": "dynamics_only_0002",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2796638354322045
+      },
+      "friction_scale": 1.7279496442519835,
+      "dof_damping_scale": 1.1244830526630607,
+      "actuator_gain_scale": 1.0655053515080912,
+      "severity": "severe"
+    },
+    "episode_return": 717.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 3,
+    "scenario_id": "dynamics_only_0003",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7895616246305681
+      },
+      "friction_scale": 1.1323480894975813,
+      "dof_damping_scale": 0.8883283662092134,
+      "actuator_gain_scale": 1.091220333382565,
+      "severity": "severe"
+    },
+    "episode_return": 647.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 4,
+    "scenario_id": "dynamics_only_0004",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9290923813478564
+      },
+      "friction_scale": 1.4475521128135016,
+      "dof_damping_scale": 1.12199749709478,
+      "actuator_gain_scale": 0.9402979114185934,
+      "severity": "severe"
+    },
+    "episode_return": 651.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 5,
+    "scenario_id": "dynamics_only_0005",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2006778102688735
+      },
+      "friction_scale": 1.2472495588000951,
+      "dof_damping_scale": 1.1142292463947538,
+      "actuator_gain_scale": 0.9194044465761715,
+      "severity": "severe"
+    },
+    "episode_return": 618.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 6,
+    "scenario_id": "dynamics_only_0006",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8078635306650375
+      },
+      "friction_scale": 1.619719315978489,
+      "dof_damping_scale": 0.9695549775651111,
+      "actuator_gain_scale": 0.9941538210886222,
+      "severity": "severe"
+    },
+    "episode_return": 636.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 7,
+    "scenario_id": "dynamics_only_0007",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9504024631506671
+      },
+      "friction_scale": 1.1621544620683744,
+      "dof_damping_scale": 0.8292594232180726,
+      "actuator_gain_scale": 1.0254171389349263,
+      "severity": "moderate"
+    },
+    "episode_return": 645.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 8,
+    "scenario_id": "dynamics_only_0008",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2985399231769899
+      },
+      "friction_scale": 1.7357262425832891,
+      "dof_damping_scale": 1.011743787634861,
+      "actuator_gain_scale": 0.8599272122108154,
+      "severity": "severe"
+    },
+    "episode_return": 665.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 9,
+    "scenario_id": "dynamics_only_0009",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.0524325777990349
+      },
+      "friction_scale": 1.3576536503638235,
+      "dof_damping_scale": 0.9233588109055283,
+      "actuator_gain_scale": 1.0462713842998117,
+      "severity": "severe"
+    },
+    "episode_return": 691.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 10,
+    "scenario_id": "dynamics_only_0010",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7283038644001391
+      },
+      "friction_scale": 0.866503197960602,
+      "dof_damping_scale": 0.9238964497560789,
+      "actuator_gain_scale": 0.8920351811926173,
+      "severity": "severe"
+    },
+    "episode_return": 48.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 11,
+    "scenario_id": "dynamics_only_0011",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.151505090539391
+      },
+      "friction_scale": 1.5954025987851392,
+      "dof_damping_scale": 0.8178424006235698,
+      "actuator_gain_scale": 0.9323371266435908,
+      "severity": "severe"
+    },
+    "episode_return": 684.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 12,
+    "scenario_id": "dynamics_only_0012",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7737441260891176
+      },
+      "friction_scale": 1.1312743906405212,
+      "dof_damping_scale": 0.8401492725421047,
+      "actuator_gain_scale": 0.9960699419302148,
+      "severity": "severe"
+    },
+    "episode_return": 636.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 13,
+    "scenario_id": "dynamics_only_0013",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.845583180850955
+      },
+      "friction_scale": 1.3470115211797222,
+      "dof_damping_scale": 1.1184008852302054,
+      "actuator_gain_scale": 0.9969467441625695,
+      "severity": "severe"
+    },
+    "episode_return": 740.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 14,
+    "scenario_id": "dynamics_only_0014",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2574481944431346
+      },
+      "friction_scale": 1.115159892375073,
+      "dof_damping_scale": 0.9956134660643599,
+      "actuator_gain_scale": 1.0427201228902248,
+      "severity": "severe"
+    },
+    "episode_return": 647.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 15,
+    "scenario_id": "dynamics_only_0015",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9341943429032975
+      },
+      "friction_scale": 0.9166939524565827,
+      "dof_damping_scale": 0.865892516095941,
+      "actuator_gain_scale": 0.8837364591540308,
+      "severity": "moderate"
+    },
+    "episode_return": 41.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 16,
+    "scenario_id": "dynamics_only_0016",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1941727539826736
+      },
+      "friction_scale": 1.5813177973469188,
+      "dof_damping_scale": 0.9081716521432224,
+      "actuator_gain_scale": 1.1418822571446934,
+      "severity": "severe"
+    },
+    "episode_return": 702.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 17,
+    "scenario_id": "dynamics_only_0017",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2173184082547257
+      },
+      "friction_scale": 0.7851439452250608,
+      "dof_damping_scale": 0.874259274075376,
+      "actuator_gain_scale": 1.1173859441449208,
+      "severity": "severe"
+    },
+    "episode_return": 640.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 18,
+    "scenario_id": "dynamics_only_0018",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.075501690018306
+      },
+      "friction_scale": 0.9755188348751719,
+      "dof_damping_scale": 1.0608001985361577,
+      "actuator_gain_scale": 1.0817933556953727,
+      "severity": "moderate"
+    },
+    "episode_return": 648.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 19,
+    "scenario_id": "dynamics_only_0019",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1532344348410501
+      },
+      "friction_scale": 1.4972871784471118,
+      "dof_damping_scale": 1.1761709688945117,
+      "actuator_gain_scale": 1.081530435334034,
+      "severity": "severe"
+    },
+    "episode_return": 723.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 20,
+    "scenario_id": "dynamics_only_0020",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9522859706562139
+      },
+      "friction_scale": 1.5769208601424463,
+      "dof_damping_scale": 0.8548853057087318,
+      "actuator_gain_scale": 0.9239025266767139,
+      "severity": "severe"
+    },
+    "episode_return": 651.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 21,
+    "scenario_id": "dynamics_only_0021",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2961733461389602
+      },
+      "friction_scale": 1.0244002973881554,
+      "dof_damping_scale": 1.0870697616646854,
+      "actuator_gain_scale": 0.863174754366665,
+      "severity": "severe"
+    },
+    "episode_return": 647.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 22,
+    "scenario_id": "dynamics_only_0022",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8913003494353153
+      },
+      "friction_scale": 1.7882473794992453,
+      "dof_damping_scale": 0.893965749369095,
+      "actuator_gain_scale": 1.1202963617403319,
+      "severity": "severe"
+    },
+    "episode_return": 646.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 23,
+    "scenario_id": "dynamics_only_0023",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7896075494671094
+      },
+      "friction_scale": 0.5391333427287339,
+      "dof_damping_scale": 1.1670396769088174,
+      "actuator_gain_scale": 0.9688496267910728,
+      "severity": "severe"
+    },
+    "episode_return": 727.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 24,
+    "scenario_id": "dynamics_only_0024",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9471275683240866
+      },
+      "friction_scale": 1.5861413696849218,
+      "dof_damping_scale": 1.0701984345599542,
+      "actuator_gain_scale": 1.0457188060972467,
+      "severity": "severe"
+    },
+    "episode_return": 35.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 25,
+    "scenario_id": "dynamics_only_0025",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9218238394463327
+      },
+      "friction_scale": 1.3641602478415096,
+      "dof_damping_scale": 0.900020565344346,
+      "actuator_gain_scale": 1.1289847221656957,
+      "severity": "severe"
+    },
+    "episode_return": 640.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 26,
+    "scenario_id": "dynamics_only_0026",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9018644950783212
+      },
+      "friction_scale": 1.3730915448181675,
+      "dof_damping_scale": 0.8978146014312722,
+      "actuator_gain_scale": 0.8773091906630647,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 27,
+    "scenario_id": "dynamics_only_0027",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2368949183041322
+      },
+      "friction_scale": 0.9157597508119732,
+      "dof_damping_scale": 1.150240927159401,
+      "actuator_gain_scale": 0.9597318670434889,
+      "severity": "severe"
+    },
+    "episode_return": 50.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 28,
+    "scenario_id": "dynamics_only_0028",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2477663298324622
+      },
+      "friction_scale": 1.096698014727715,
+      "dof_damping_scale": 1.1950760019057305,
+      "actuator_gain_scale": 0.95475129718829,
+      "severity": "severe"
+    },
+    "episode_return": 636.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 29,
+    "scenario_id": "dynamics_only_0029",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7140630462930211
+      },
+      "friction_scale": 0.5269797294024952,
+      "dof_damping_scale": 1.129824392585651,
+      "actuator_gain_scale": 1.0021244437839831,
+      "severity": "severe"
+    },
+    "episode_return": 654.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 30,
+    "scenario_id": "dynamics_only_0030",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2747240921453384
+      },
+      "friction_scale": 1.6983183252618368,
+      "dof_damping_scale": 0.8944713781588471,
+      "actuator_gain_scale": 1.049843612379719,
+      "severity": "severe"
+    },
+    "episode_return": 638.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 31,
+    "scenario_id": "dynamics_only_0031",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.0271397923516747
+      },
+      "friction_scale": 0.5868239358501764,
+      "dof_damping_scale": 1.0263743522650404,
+      "actuator_gain_scale": 0.8755964932748871,
+      "severity": "severe"
+    },
+    "episode_return": 624.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 32,
+    "scenario_id": "dynamics_only_0032",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8181420479061889
+      },
+      "friction_scale": 0.9165693367455221,
+      "dof_damping_scale": 1.1482817940770356,
+      "actuator_gain_scale": 1.1384555236000995,
+      "severity": "moderate"
+    },
+    "episode_return": 659.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 33,
+    "scenario_id": "dynamics_only_0033",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.221838094565716
+      },
+      "friction_scale": 1.6456996743723677,
+      "dof_damping_scale": 1.1426789845278256,
+      "actuator_gain_scale": 1.0299205663988757,
+      "severity": "severe"
+    },
+    "episode_return": 642.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 34,
+    "scenario_id": "dynamics_only_0034",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2562417338261427
+      },
+      "friction_scale": 1.681336009280823,
+      "dof_damping_scale": 0.8398621303737895,
+      "actuator_gain_scale": 1.007833367598422,
+      "severity": "severe"
+    },
+    "episode_return": 621.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 35,
+    "scenario_id": "dynamics_only_0035",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9460101892312279
+      },
+      "friction_scale": 0.6206982506932717,
+      "dof_damping_scale": 1.1048010373710861,
+      "actuator_gain_scale": 1.082161781971751,
+      "severity": "severe"
+    },
+    "episode_return": 37.0,
+    "episode_highest_reward": 2.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 36,
+    "scenario_id": "dynamics_only_0036",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7647545510245515
+      },
+      "friction_scale": 0.8688561017173893,
+      "dof_damping_scale": 0.9243590848510125,
+      "actuator_gain_scale": 1.0145652665119325,
+      "severity": "severe"
+    },
+    "episode_return": 49.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 37,
+    "scenario_id": "dynamics_only_0037",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1719155925179832
+      },
+      "friction_scale": 1.0914242399376466,
+      "dof_damping_scale": 0.9995832413566664,
+      "actuator_gain_scale": 0.862661094338847,
+      "severity": "severe"
+    },
+    "episode_return": 628.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 38,
+    "scenario_id": "dynamics_only_0038",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.800033473713251
+      },
+      "friction_scale": 1.7502995868254023,
+      "dof_damping_scale": 1.094133964941013,
+      "actuator_gain_scale": 1.038424361332784,
+      "severity": "severe"
+    },
+    "episode_return": 642.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 39,
+    "scenario_id": "dynamics_only_0039",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2712661795550213
+      },
+      "friction_scale": 1.3175907092069858,
+      "dof_damping_scale": 1.1178921726157867,
+      "actuator_gain_scale": 1.049196582468961,
+      "severity": "severe"
+    },
+    "episode_return": 646.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 40,
+    "scenario_id": "dynamics_only_0040",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9207690716296806
+      },
+      "friction_scale": 1.0238389907892151,
+      "dof_damping_scale": 0.8424829299503318,
+      "actuator_gain_scale": 1.0467819270179555,
+      "severity": "severe"
+    },
+    "episode_return": 642.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 41,
+    "scenario_id": "dynamics_only_0041",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9013811214561636
+      },
+      "friction_scale": 0.7588698755041094,
+      "dof_damping_scale": 0.918563594044741,
+      "actuator_gain_scale": 1.0216975569227242,
+      "severity": "severe"
+    },
+    "episode_return": 749.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 42,
+    "scenario_id": "dynamics_only_0042",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7967463247809717
+      },
+      "friction_scale": 1.0889826420845956,
+      "dof_damping_scale": 1.0645472599786652,
+      "actuator_gain_scale": 1.0588616712012044,
+      "severity": "severe"
+    },
+    "episode_return": 648.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 43,
+    "scenario_id": "dynamics_only_0043",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.005400662360252
+      },
+      "friction_scale": 1.2277100924694375,
+      "dof_damping_scale": 0.8232747748081181,
+      "actuator_gain_scale": 1.0914181510014584,
+      "severity": "severe"
+    },
+    "episode_return": 53.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 44,
+    "scenario_id": "dynamics_only_0044",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.0958268609641835
+      },
+      "friction_scale": 1.3874009580890543,
+      "dof_damping_scale": 0.8890882348234855,
+      "actuator_gain_scale": 0.8800983959818796,
+      "severity": "severe"
+    },
+    "episode_return": 720.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 45,
+    "scenario_id": "dynamics_only_0045",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1026931884436297
+      },
+      "friction_scale": 1.3581354302127033,
+      "dof_damping_scale": 1.1727961315822353,
+      "actuator_gain_scale": 0.9829746871586683,
+      "severity": "severe"
+    },
+    "episode_return": 50.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 46,
+    "scenario_id": "dynamics_only_0046",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9088374206651156
+      },
+      "friction_scale": 1.4047697442021763,
+      "dof_damping_scale": 0.8411863951871468,
+      "actuator_gain_scale": 0.8962845981365973,
+      "severity": "severe"
+    },
+    "episode_return": 712.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 47,
+    "scenario_id": "dynamics_only_0047",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1134427676607084
+      },
+      "friction_scale": 1.0886168127590576,
+      "dof_damping_scale": 1.1564200547901713,
+      "actuator_gain_scale": 1.018120901258813,
+      "severity": "severe"
+    },
+    "episode_return": 663.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 48,
+    "scenario_id": "dynamics_only_0048",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.764196116136111
+      },
+      "friction_scale": 0.8599283901025492,
+      "dof_damping_scale": 0.9442562085906914,
+      "actuator_gain_scale": 1.0799363431295395,
+      "severity": "severe"
+    },
+    "episode_return": 656.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 49,
+    "scenario_id": "dynamics_only_0049",
+    "mode": "dynamics_only",
+    "suite": "transfer_dynamics_v1",
+    "visual_cfg": null,
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7615646195323109
+      },
+      "friction_scale": 1.7676889346049802,
+      "dof_damping_scale": 1.082396217797593,
+      "actuator_gain_scale": 0.9949734038184569,
+      "severity": "severe"
+    },
+    "episode_return": 717.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  }
+]
