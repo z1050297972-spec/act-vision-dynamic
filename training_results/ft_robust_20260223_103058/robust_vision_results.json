@@ -1,0 +1,820 @@
+[
+  {
+    "rollout_id": 0,
+    "scenario_id": "vision_only_0000",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 643.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 1,
+    "scenario_id": "vision_only_0001",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 9,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 627.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 2,
+    "scenario_id": "vision_only_0002",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.27334919793095236,
+      "fill_mode": "random",
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 3,
+    "scenario_id": "vision_only_0003",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 629.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 4,
+    "scenario_id": "vision_only_0004",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.13831089925006163,
+      "fill_mode": "mean",
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 60.0,
+    "episode_highest_reward": 2.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 5,
+    "scenario_id": "vision_only_0005",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 9,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 636.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 6,
+    "scenario_id": "vision_only_0006",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.0730661275376342,
+      "fill_mode": "random",
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 622.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 7,
+    "scenario_id": "vision_only_0007",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 12.767423661511557,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 622.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 8,
+    "scenario_id": "vision_only_0008",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 27,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 632.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 9,
+    "scenario_id": "vision_only_0009",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.9915962909927072,
+      "beta": 8.945080323364706,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 631.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 10,
+    "scenario_id": "vision_only_0010",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 619.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 11,
+    "scenario_id": "vision_only_0011",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.26111408604170516,
+      "fill_mode": "black",
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 358.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 12,
+    "scenario_id": "vision_only_0012",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 639.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 13,
+    "scenario_id": "vision_only_0013",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 7.0120773257942,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 639.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 14,
+    "scenario_id": "vision_only_0014",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 637.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 15,
+    "scenario_id": "vision_only_0015",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 13.90123853229947,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 644.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 16,
+    "scenario_id": "vision_only_0016",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.3096522168245444,
+      "beta": 29.860462893248226,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 656.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 17,
+    "scenario_id": "vision_only_0017",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.3097867882964627,
+      "beta": -25.259265330572713,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 642.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 18,
+    "scenario_id": "vision_only_0018",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 17.845076848559067,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 621.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 19,
+    "scenario_id": "vision_only_0019",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.8881346330134445,
+      "beta": 24.042958507876975,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 628.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 20,
+    "scenario_id": "vision_only_0020",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 16.83860125337478,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 640.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 21,
+    "scenario_id": "vision_only_0021",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.2084061812973682,
+      "fill_mode": "mean",
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 22,
+    "scenario_id": "vision_only_0022",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 82,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 631.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 23,
+    "scenario_id": "vision_only_0023",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 5.146175244199878,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 649.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 24,
+    "scenario_id": "vision_only_0024",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 51,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 645.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 25,
+    "scenario_id": "vision_only_0025",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 13.225466484230608,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 623.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 26,
+    "scenario_id": "vision_only_0026",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 60,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 623.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 27,
+    "scenario_id": "vision_only_0027",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 25,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 48.0,
+    "episode_highest_reward": 2.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 28,
+    "scenario_id": "vision_only_0028",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 27,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 640.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 29,
+    "scenario_id": "vision_only_0029",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.1149079870361887,
+      "beta": -14.37739085994242,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 619.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 30,
+    "scenario_id": "vision_only_0030",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 29,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 628.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 31,
+    "scenario_id": "vision_only_0031",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 57,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 621.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 32,
+    "scenario_id": "vision_only_0032",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 6.226618479769677,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 616.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 33,
+    "scenario_id": "vision_only_0033",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 9,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 635.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 34,
+    "scenario_id": "vision_only_0034",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.26904640085669135,
+      "fill_mode": "random",
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 640.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 35,
+    "scenario_id": "vision_only_0035",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.0874275846580475,
+      "fill_mode": "black",
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 626.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 36,
+    "scenario_id": "vision_only_0036",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.038270638009153,
+      "beta": -6.487936114214094,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 622.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 37,
+    "scenario_id": "vision_only_0037",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 37,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 628.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 38,
+    "scenario_id": "vision_only_0038",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 73,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 631.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 39,
+    "scenario_id": "vision_only_0039",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.9822150080343239,
+      "beta": 11.602433714329791,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 640.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 40,
+    "scenario_id": "vision_only_0040",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 19.796615274836988,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 623.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 41,
+    "scenario_id": "vision_only_0041",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 65,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 630.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 42,
+    "scenario_id": "vision_only_0042",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 635.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 43,
+    "scenario_id": "vision_only_0043",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 15.30038946933696,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 630.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 44,
+    "scenario_id": "vision_only_0044",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 65,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 647.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 45,
+    "scenario_id": "vision_only_0045",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.826837483994081,
+      "beta": 14.409375937802537,
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 622.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 46,
+    "scenario_id": "vision_only_0046",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.2134552646877401,
+      "beta": 10.974696673324516,
+      "severity": "moderate"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 644.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 47,
+    "scenario_id": "vision_only_0047",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.21433385963929763,
+      "fill_mode": "black",
+      "severity": "severe"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 3.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 48,
+    "scenario_id": "vision_only_0048",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 61,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 636.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 49,
+    "scenario_id": "vision_only_0049",
+    "mode": "vision_only",
+    "suite": "transfer_vision_v2",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.9361738052527151,
+      "beta": 14.254360029345694,
+      "severity": "mild"
+    },
+    "dynamics_cfg": null,
+    "episode_return": 647.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  }
+]

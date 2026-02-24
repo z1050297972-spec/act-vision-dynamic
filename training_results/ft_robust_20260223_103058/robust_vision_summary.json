@@ -1,0 +1,63 @@
+{
+  "mode": "vision_only",
+  "suite": "transfer_vision_v2",
+  "overall": {
+    "count": 50,
+    "success_rate": 0.9,
+    "avg_return": 566.14,
+    "avg_highest_reward": 3.7
+  },
+  "by_visual_type": {
+    "brightness_contrast": {
+      "count": 10,
+      "success_rate": 1.0,
+      "avg_return": 635.1,
+      "avg_highest_reward": 4.0
+    },
+    "gaussian_noise": {
+      "count": 10,
+      "success_rate": 1.0,
+      "avg_return": 630.7,
+      "avg_highest_reward": 4.0
+    },
+    "jpeg_compression": {
+      "count": 13,
+      "success_rate": 0.9230769230769231,
+      "avg_return": 587.6923076923077,
+      "avg_highest_reward": 3.8461538461538463
+    },
+    "motion_blur": {
+      "count": 9,
+      "success_rate": 1.0,
+      "avg_return": 633.3333333333334,
+      "avg_highest_reward": 4.0
+    },
+    "occlusion": {
+      "count": 8,
+      "success_rate": 0.5,
+      "avg_return": 288.625,
+      "avg_highest_reward": 2.375
+    }
+  },
+  "by_visual_severity": {
+    "mild": {
+      "count": 14,
+      "success_rate": 1.0,
+      "avg_return": 631.0,
+      "avg_highest_reward": 4.0
+    },
+    "moderate": {
+      "count": 17,
+      "success_rate": 0.9411764705882353,
+      "avg_return": 598.4117647058823,
+      "avg_highest_reward": 3.8823529411764706
+    },
+    "severe": {
+      "count": 19,
+      "success_rate": 0.7894736842105263,
+      "avg_return": 489.4736842105263,
+      "avg_highest_reward": 3.3157894736842106
+    }
+  },
+  "by_dynamics_severity": {}
+}

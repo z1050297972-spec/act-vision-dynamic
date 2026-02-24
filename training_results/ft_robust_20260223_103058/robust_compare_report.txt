@@ -1,0 +1,32 @@
+Robustness Comparison Report
+Timestamp: 2026-02-23T10:54:50.103350+00:00
+Task: sim_transfer_cube_scripted
+Checkpoint dir: training_results/ft_robust_20260223_103058
+
+Overall
+- dynamics success_rate: 1.0000
+- vision success_rate:   0.9000
+- dynamics avg_return:   634.2600
+- vision avg_return:     566.1400
+- vision+dynamics success_rate: 0.9000
+- vision+dynamics avg_return:   571.2600
+- success_rate_gap(dyn-vis): 0.1000
+- avg_return_gap(dyn-vis):   68.1200
+- harder_by_success: vision
+- harder_by_return:  vision
+
+Dynamics Severity Breakdown
+- moderate: count=4 success_rate=1.0000 avg_return=620.2500
+- severe: count=46 success_rate=1.0000 avg_return=635.4783
+
+Vision Type Breakdown
+- brightness_contrast: count=10 success_rate=1.0000 avg_return=635.1000
+- gaussian_noise: count=10 success_rate=1.0000 avg_return=630.7000
+- jpeg_compression: count=13 success_rate=0.9231 avg_return=587.6923
+- motion_blur: count=9 success_rate=1.0000 avg_return=633.3333
+- occlusion: count=8 success_rate=0.5000 avg_return=288.6250
+
+Vision+Dynamics Severity Breakdown
+- moderate: count=5 success_rate=0.8000 avg_return=531.0000
+- severe: count=45 success_rate=0.9111 avg_return=575.7333
+

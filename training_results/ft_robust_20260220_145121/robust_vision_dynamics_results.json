@@ -1,0 +1,1220 @@
+[
+  {
+    "rollout_id": 0,
+    "scenario_id": "vision_dynamics_0000",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 5
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2166435678778424
+      },
+      "friction_scale": 0.8722711315181859,
+      "dof_damping_scale": 1.0696499234034702,
+      "actuator_gain_scale": 1.023475250349471,
+      "severity": "severe"
+    },
+    "episode_return": 630.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 1,
+    "scenario_id": "vision_dynamics_0001",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2654055786000837
+      },
+      "friction_scale": 0.6892306633322717,
+      "dof_damping_scale": 1.042627828702337,
+      "actuator_gain_scale": 1.0242744665496972,
+      "severity": "severe"
+    },
+    "episode_return": 630.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 2,
+    "scenario_id": "vision_dynamics_0002",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.19315827160053117,
+      "fill_value": 0
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2667459896547615
+      },
+      "friction_scale": 1.4338565232017286,
+      "dof_damping_scale": 1.0733869987722147,
+      "actuator_gain_scale": 1.1474831062099202,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 3,
+    "scenario_id": "vision_dynamics_0003",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2856982541722357
+      },
+      "friction_scale": 0.7870671901799435,
+      "dof_damping_scale": 1.1216271111767533,
+      "actuator_gain_scale": 0.9403630758031619,
+      "severity": "severe"
+    },
+    "episode_return": 621.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 4,
+    "scenario_id": "vision_dynamics_0004",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.1693210339854785,
+      "fill_value": 0
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1373317443754623
+      },
+      "friction_scale": 0.8912909494805719,
+      "dof_damping_scale": 0.9933122863112016,
+      "actuator_gain_scale": 0.8797475680361843,
+      "severity": "moderate"
+    },
+    "episode_return": 8.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 5,
+    "scenario_id": "vision_dynamics_0005",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.232858036859788
+      },
+      "friction_scale": 1.52124505078295,
+      "dof_damping_scale": 0.8925392621015621,
+      "actuator_gain_scale": 1.0779217812876243,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 6,
+    "scenario_id": "vision_dynamics_0006",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.18924266371708287,
+      "fill_value": 0
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2167935304516104
+      },
+      "friction_scale": 1.1246665580506963,
+      "dof_damping_scale": 1.0846939326756984,
+      "actuator_gain_scale": 1.0226626165408133,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 7,
+    "scenario_id": "vision_dynamics_0007",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 11.918559153778894
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.0056097517238651
+      },
+      "friction_scale": 1.2601409353846809,
+      "dof_damping_scale": 0.944283629099492,
+      "actuator_gain_scale": 0.8572920537162597,
+      "severity": "severe"
+    },
+    "episode_return": 622.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 8,
+    "scenario_id": "vision_dynamics_0008",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 80
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7127301471070778
+      },
+      "friction_scale": 1.1881673098132985,
+      "dof_damping_scale": 0.8132362829477539,
+      "actuator_gain_scale": 0.9738266680872265,
+      "severity": "severe"
+    },
+    "episode_return": 651.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 9,
+    "scenario_id": "vision_dynamics_0009",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.9885403968082371,
+      "beta": 9.58401463217647
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8850382163582925
+      },
+      "friction_scale": 1.2834300458003058,
+      "dof_damping_scale": 0.8416407092116458,
+      "actuator_gain_scale": 0.8921263919696141,
+      "severity": "severe"
+    },
+    "episode_return": 606.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 10,
+    "scenario_id": "vision_dynamics_0010",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8376210659395953
+      },
+      "friction_scale": 0.9026634617072564,
+      "dof_damping_scale": 0.8560469082568232,
+      "actuator_gain_scale": 0.8930395567347424,
+      "severity": "moderate"
+    },
+    "episode_return": 609.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 11,
+    "scenario_id": "vision_dynamics_0011",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.06365425843299677,
+      "fill_value": 0
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2055704302085257
+      },
+      "friction_scale": 0.8567942154555602,
+      "dof_damping_scale": 0.873625077459648,
+      "actuator_gain_scale": 0.8715813981933389,
+      "severity": "severe"
+    },
+    "episode_return": 692.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 12,
+    "scenario_id": "vision_dynamics_0012",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8321238946403207
+      },
+      "friction_scale": 0.6304851357618403,
+      "dof_damping_scale": 0.9947599225736198,
+      "actuator_gain_scale": 0.9938340311813455,
+      "severity": "severe"
+    },
+    "episode_return": 622.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 13,
+    "scenario_id": "vision_dynamics_0013",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 17.55032219080917
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.090928394390641
+      },
+      "friction_scale": 1.136769224704468,
+      "dof_damping_scale": 0.9121732922022586,
+      "actuator_gain_scale": 1.0142693495938817,
+      "severity": "moderate"
+    },
+    "episode_return": 689.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 14,
+    "scenario_id": "vision_dynamics_0014",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2573453357496525
+      },
+      "friction_scale": 1.1357437647091697,
+      "dof_damping_scale": 1.056960163853633,
+      "actuator_gain_scale": 0.8761724404458224,
+      "severity": "severe"
+    },
+    "episode_return": 6.0,
+    "episode_highest_reward": 2.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 15,
+    "scenario_id": "vision_dynamics_0015",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 14.753096330748676
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.892320285749192
+      },
+      "friction_scale": 0.6461913230008001,
+      "dof_damping_scale": 1.1869790215854312,
+      "actuator_gain_scale": 1.0599584729591633,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 16,
+    "scenario_id": "vision_dynamics_0016",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.2654161858496096,
+      "beta": 19.90697526216549
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8622574782148336
+      },
+      "friction_scale": 1.2536528548525194,
+      "dof_damping_scale": 1.0460845055978218,
+      "actuator_gain_scale": 0.8630464517656034,
+      "severity": "severe"
+    },
+    "episode_return": 722.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 17,
+    "scenario_id": "vision_dynamics_0017",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.2655315328255394,
+      "beta": -16.839510220381808
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8113889111130638
+      },
+      "friction_scale": 0.8794012789118106,
+      "dof_damping_scale": 1.1518897362706322,
+      "actuator_gain_scale": 0.8679026460079396,
+      "severity": "severe"
+    },
+    "episode_return": 615.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 18,
+    "scenario_id": "vision_dynamics_0018",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 24.612692121397668
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9194702314808485
+      },
+      "friction_scale": 1.5044378746799483,
+      "dof_damping_scale": 0.9720138485655536,
+      "actuator_gain_scale": 0.9185008366731355,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 19,
+    "scenario_id": "vision_dynamics_0019",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.9041153997258096,
+      "beta": 16.028639005251314
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2642564533417673
+      },
+      "friction_scale": 1.6165433144164356,
+      "dof_damping_scale": 1.055364517235771,
+      "actuator_gain_scale": 0.8986399226229471,
+      "severity": "severe"
+    },
+    "episode_return": 713.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 20,
+    "scenario_id": "vision_dynamics_0020",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 22.096503133436947
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1970403969888213
+      },
+      "friction_scale": 0.8202442822657605,
+      "dof_damping_scale": 0.9116711129690499,
+      "actuator_gain_scale": 1.0054915900710306,
+      "severity": "severe"
+    },
+    "episode_return": 653.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 21,
+    "scenario_id": "vision_dynamics_0021",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.11933852625910364,
+      "fill_value": 0
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.942030906486841
+      },
+      "friction_scale": 0.5570906022555486,
+      "dof_damping_scale": 0.8681113239405641,
+      "actuator_gain_scale": 1.1457109750938659,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 22,
+    "scenario_id": "vision_dynamics_0022",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 39
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1188691837064257
+      },
+      "friction_scale": 0.8053886854495586,
+      "dof_damping_scale": 1.1603951489871092,
+      "actuator_gain_scale": 0.9742813846867124,
+      "severity": "severe"
+    },
+    "episode_return": 629.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 23,
+    "scenario_id": "vision_dynamics_0023",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 9.775730184166157
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7180615427978772
+      },
+      "friction_scale": 1.0150150494279826,
+      "dof_damping_scale": 1.0964896274791993,
+      "actuator_gain_scale": 1.1237466413666202,
+      "severity": "severe"
+    },
+    "episode_return": 722.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 24,
+    "scenario_id": "vision_dynamics_0024",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 45
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1276880568189716
+      },
+      "friction_scale": 1.3781449123198517,
+      "dof_damping_scale": 1.0609584081296624,
+      "actuator_gain_scale": 0.9315563033094629,
+      "severity": "severe"
+    },
+    "episode_return": 632.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 25,
+    "scenario_id": "vision_dynamics_0025",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 13.06366621057652
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.098843191311466
+      },
+      "friction_scale": 1.7089337960513482,
+      "dof_damping_scale": 1.1153877648342116,
+      "actuator_gain_scale": 0.9560236795804795,
+      "severity": "severe"
+    },
+    "episode_return": 637.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 26,
+    "scenario_id": "vision_dynamics_0026",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 40
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7278780181188343
+      },
+      "friction_scale": 0.8178974546516347,
+      "dof_damping_scale": 0.8364122542174197,
+      "actuator_gain_scale": 0.8549819945118291,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 27,
+    "scenario_id": "vision_dynamics_0027",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 74
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1831359595184505
+      },
+      "friction_scale": 1.6382830132680533,
+      "dof_damping_scale": 0.9463091560579852,
+      "actuator_gain_scale": 1.0678116000850224,
+      "severity": "severe"
+    },
+    "episode_return": 52.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 28,
+    "scenario_id": "vision_dynamics_0028",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 75
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.939330843483859
+      },
+      "friction_scale": 1.7839970061936241,
+      "dof_damping_scale": 0.9396683962510534,
+      "actuator_gain_scale": 0.878147294980293,
+      "severity": "severe"
+    },
+    "episode_return": 636.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 29,
+    "scenario_id": "vision_dynamics_0029",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.2872699675904715,
+      "beta": -28.75478171988484
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1947365888784767
+      },
+      "friction_scale": 1.5431582705238045,
+      "dof_damping_scale": 0.8606373032989043,
+      "actuator_gain_scale": 1.038464102325276,
+      "severity": "severe"
+    },
+    "episode_return": 618.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 30,
+    "scenario_id": "vision_dynamics_0030",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 78
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7899081345038312
+      },
+      "friction_scale": 0.807031979016253,
+      "dof_damping_scale": 1.0664581498396253,
+      "actuator_gain_scale": 1.1025879171466408,
+      "severity": "severe"
+    },
+    "episode_return": 641.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 31,
+    "scenario_id": "vision_dynamics_0031",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 53
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.076551777738599
+      },
+      "friction_scale": 1.2357166448613817,
+      "dof_damping_scale": 0.8341286576998496,
+      "actuator_gain_scale": 0.9828109989933815,
+      "severity": "severe"
+    },
+    "episode_return": 627.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 32,
+    "scenario_id": "vision_dynamics_0032",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 14.27757699904032
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8922627708056257
+      },
+      "friction_scale": 1.7499739356004316,
+      "dof_damping_scale": 1.1566499319482662,
+      "actuator_gain_scale": 0.8651676691072053,
+      "severity": "severe"
+    },
+    "episode_return": 642.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 33,
+    "scenario_id": "vision_dynamics_0033",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 7
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.866168303653703
+      },
+      "friction_scale": 1.6137066997154337,
+      "dof_damping_scale": 1.0398940885318344,
+      "actuator_gain_scale": 0.977086541803159,
+      "severity": "severe"
+    },
+    "episode_return": 648.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 34,
+    "scenario_id": "vision_dynamics_0034",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.1933806813533277,
+      "fill_value": 0
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2452320042834568
+      },
+      "friction_scale": 1.183944592926495,
+      "dof_damping_scale": 1.1006690150918361,
+      "actuator_gain_scale": 1.0915451150474245,
+      "severity": "severe"
+    },
+    "episode_return": 669.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 35,
+    "scenario_id": "vision_dynamics_0035",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.15150246307159584,
+      "fill_value": 0
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7557068849353561
+      },
+      "friction_scale": 1.5060343885442549,
+      "dof_damping_scale": 1.1998189635515706,
+      "actuator_gain_scale": 1.0623003787293195,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 36,
+    "scenario_id": "vision_dynamics_0036",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.0956765950228826,
+      "beta": -12.975872228428187
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8865386272765188
+      },
+      "friction_scale": 0.5211668618455684,
+      "dof_damping_scale": 0.9078418902117338,
+      "actuator_gain_scale": 0.8598696282987829,
+      "severity": "severe"
+    },
+    "episode_return": 593.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 37,
+    "scenario_id": "vision_dynamics_0037",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 67
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7408524159155432
+      },
+      "friction_scale": 1.148645534409166,
+      "dof_damping_scale": 0.8168814591184628,
+      "actuator_gain_scale": 0.9846460309821127,
+      "severity": "severe"
+    },
+    "episode_return": 649.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 38,
+    "scenario_id": "vision_dynamics_0038",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 30
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7173390238831349
+      },
+      "friction_scale": 1.4559353860582922,
+      "dof_damping_scale": 1.051232481777045,
+      "actuator_gain_scale": 1.0980962543929556,
+      "severity": "severe"
+    },
+    "episode_return": 624.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 39,
+    "scenario_id": "vision_dynamics_0039",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.9847557211722777,
+      "beta": 7.734955809553192
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1768382589236799
+      },
+      "friction_scale": 1.198217408924827,
+      "dof_damping_scale": 0.9695013994015723,
+      "actuator_gain_scale": 1.1204515413625047,
+      "severity": "moderate"
+    },
+    "episode_return": 622.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 40,
+    "scenario_id": "vision_dynamics_0040",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 29.49153818709247
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9417718419027146
+      },
+      "friction_scale": 1.3527216837444735,
+      "dof_damping_scale": 1.1896715408621623,
+      "actuator_gain_scale": 0.8959645719136791,
+      "severity": "severe"
+    },
+    "episode_return": 42.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 41,
+    "scenario_id": "vision_dynamics_0041",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 40
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.0942564039917007
+      },
+      "friction_scale": 0.8853316806454081,
+      "dof_damping_scale": 1.0289300758969657,
+      "actuator_gain_scale": 0.882015924244876,
+      "severity": "moderate"
+    },
+    "episode_return": 56.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 42,
+    "scenario_id": "vision_dynamics_0042",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "motion_blur",
+      "kernel_size": 3
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.8959278266976756
+      },
+      "friction_scale": 1.359778594930662,
+      "dof_damping_scale": 1.078482228268273,
+      "actuator_gain_scale": 1.0378620841835375,
+      "severity": "severe"
+    },
+    "episode_return": 620.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 43,
+    "scenario_id": "vision_dynamics_0043",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "gaussian_noise",
+      "sigma": 18.2509736733424
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.0358661965243559
+      },
+      "friction_scale": 1.5461453210063205,
+      "dof_damping_scale": 1.053009424348128,
+      "actuator_gain_scale": 0.988465110623024,
+      "severity": "severe"
+    },
+    "episode_return": 0.0,
+    "episode_highest_reward": 0.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 44,
+    "scenario_id": "vision_dynamics_0044",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 60
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.2729688241122714
+      },
+      "friction_scale": 0.7895367631763281,
+      "dof_damping_scale": 0.8401311946425061,
+      "actuator_gain_scale": 1.1475349245048418,
+      "severity": "severe"
+    },
+    "episode_return": 665.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 45,
+    "scenario_id": "vision_dynamics_0045",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.8515749862806408,
+      "beta": 9.606250625201696
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.259194197373353
+      },
+      "friction_scale": 1.4791883649942794,
+      "dof_damping_scale": 0.8235843765732926,
+      "actuator_gain_scale": 1.13421150851839,
+      "severity": "severe"
+    },
+    "episode_return": 53.0,
+    "episode_highest_reward": 1.0,
+    "env_max_reward": 4.0,
+    "success": false
+  },
+  {
+    "rollout_id": 46,
+    "scenario_id": "vision_dynamics_0046",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 1.2910753609378276,
+      "beta": 11.758603578561981
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.7617795927807202
+      },
+      "friction_scale": 0.686638830838424,
+      "dof_damping_scale": 1.1467340919855236,
+      "actuator_gain_scale": 0.8810971989192775,
+      "severity": "severe"
+    },
+    "episode_return": 658.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 47,
+    "scenario_id": "vision_dynamics_0047",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "occlusion",
+      "area_ratio": 0.17520333277775252,
+      "fill_value": 0
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.9716692981964882
+      },
+      "friction_scale": 1.2285239054548565,
+      "dof_damping_scale": 0.8391515545116611,
+      "actuator_gain_scale": 1.0468551451728152,
+      "severity": "severe"
+    },
+    "episode_return": 629.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 48,
+    "scenario_id": "vision_dynamics_0048",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "jpeg_compression",
+      "quality": 26
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 0.891441305970087
+      },
+      "friction_scale": 0.9688326779197469,
+      "dof_damping_scale": 1.106581790839386,
+      "actuator_gain_scale": 0.858477470264686,
+      "severity": "moderate"
+    },
+    "episode_return": 637.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  },
+  {
+    "rollout_id": 49,
+    "scenario_id": "vision_dynamics_0049",
+    "mode": "vision_dynamics",
+    "suite": "transfer_vision_v1",
+    "visual_cfg": {
+      "type": "brightness_contrast",
+      "alpha": 0.8404345131317876,
+      "beta": 28.508720058691388
+    },
+    "dynamics_cfg": {
+      "type": "dynamics_randomization",
+      "body_mass_scales": {
+        "box": 1.1235943266963895
+      },
+      "friction_scale": 1.3671956138775359,
+      "dof_damping_scale": 1.040330095101711,
+      "actuator_gain_scale": 0.9285878206868923,
+      "severity": "severe"
+    },
+    "episode_return": 703.0,
+    "episode_highest_reward": 4.0,
+    "env_max_reward": 4.0,
+    "success": true
+  }
+]

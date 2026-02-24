@@ -1,0 +1,26 @@
+{
+  "mode": "dynamics_only",
+  "suite": "transfer_dynamics_v1",
+  "overall": {
+    "count": 50,
+    "success_rate": 1.0,
+    "avg_return": 634.26,
+    "avg_highest_reward": 4.0
+  },
+  "by_visual_type": {},
+  "by_visual_severity": {},
+  "by_dynamics_severity": {
+    "moderate": {
+      "count": 4,
+      "success_rate": 1.0,
+      "avg_return": 620.25,
+      "avg_highest_reward": 4.0
+    },
+    "severe": {
+      "count": 46,
+      "success_rate": 1.0,
+      "avg_return": 635.4782608695652,
+      "avg_highest_reward": 4.0
+    }
+  }
+}
